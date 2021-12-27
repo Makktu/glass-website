@@ -6,10 +6,20 @@
 
 main {
     min-height: 100vh;
-    background: linear-gradient(to right top, #65dfc9, #6cddeb);
+    background: linear-gradient(to right top, #0505182c, #1a1631);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+}
+
+h3 {
+    font-size: 0.75rem;
 }
 
 .glass {
